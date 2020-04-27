@@ -77,19 +77,3 @@ def analyze_text(request):
         return HttpResponse("Error on loading!!")
 
     return render(request, 'analyze.html', params)
-
-
-
-# def cap_first(request):
-#     return HttpResponse("<h3>Error remove punctuation is in off mode!!</h3>")
-#
-# def new_line_remove(request):
-#     return HttpResponse("Remove new line")
-#
-#
-# def char_count(request):
-#     return HttpResponse("Char counter")
-#
-#
-# def space_remove(request):
-#     return  HttpResponse("remove Space.")
