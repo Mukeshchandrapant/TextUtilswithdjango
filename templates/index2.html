@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Template </title>
+</head>
+<body>
+<h1>Welcome to the text Analyzer. Enter the text below.</h1>
+
+<form action="/analyze"  method="get">
+    <textarea name="text" style='margin: 0px; width: 796px; height: 136px;'></textarea><br>
+
+    <!-- check boxes to check to calculate the different values-->
+    <input type="checkbox" name="removepunc">Remove Punctuation<br>
+    <input type="checkbox" name="fullcaps">UPPERCASE<br>
+    <input type="checkbox" name="newlineremove">Remove New Line <br>
+    <input type="checkbox" name="extraspaceremove">Remove Extra Space <br>
+    <input type="checkbox" name="charcounter">Count Charaters <br>
+
+    <!--Submit Button-->
+    <button type="submit" value="capfirst">Analyze Text</button>
+
+</form>
+
+</body>
+</html>
